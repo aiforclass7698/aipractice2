@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>奈恩（Nine）— 垂直名片版</title>
+
+  <!-- 外部樣式表 -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>奈恩（Nine）</h1>
+    <p>前端工程師（Front-end Developer）</p>
+  </header>
+
+  <main>
+    <!-- ✅ 影片頭像 -->
+    <video autoplay loop muted playsinline
+           width="240" height="240"
+           style="border-radius: 50%; border: 3px solid #fff; object-fit: cover; object-position: center; margin-bottom: 20px;">
+      <source src="head.mp4" type="video/mp4">
+      你的瀏覽器不支援影片播放。
+    </video>
+
+    <p>
+      嗨，我是奈恩，熱愛設計與開發兼具美感與效能的網站。<br>
+      閒暇時喜歡拍照與旅遊。
+    </p>
+
+    <!-- ✅ 新增互動按鈕 -->
+    <button id="thanksButton">點我一下</button>
+
+    <!-- ✅ 顯示訊息的區域 -->
+    <div id="message"></div>
+  </main>
+
+  <footer>
+    <ul>
+      <li>Email：<a href="mailto:nine@example.com">nine@example.com</a></li>
+      <li>電話：+886-912-345-678</li>
+      <li><a href="https://instagram.com/nine">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/nine">LinkedIn</a></li>
+      <li><a href="https://github.com/nine">GitHub</a></li>
+    </ul>
+  </footer>
+
+  <!-- ✅ 在頁面底部連結 script.js -->
+  <script src="script.js"></script>
+</body>
+</html>
